@@ -1,0 +1,203 @@
+.links{
+    flex: 2;
+    text-align: left;
+    background-image: linear-gradient(rgba(244, 174, 244, 0.7),rgba(250, 254, 255, 0.7)),url("background.jpg");
+}
+.links ul li{
+    list-style: none;
+    display: inline-block;
+    padding-top: 0.3cm;
+    padding-left: 2cm;
+    position: relative;
+    color: rgb(253, 248, 252);
+    font-size: 25px;
+    gap: 4cm;
+}
+.links li::after{
+    width: 100%;
+    height: 2px;
+    background: hwb(hue white rgb(189, 4, 4));
+    display: block;
+    margin: auto;
+    transition: 1.8s;
+}
+.links ul li:hover::after{
+    width:100%;
+}
+body{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about{
+    background-image: url("new.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+h1{
+    color: aliceblue;
+    font-size: 80px;
+    padding-left: 3cm;
+}
+h2{
+    color: aliceblue;
+    font-size: 90px;
+    padding-left: 5cm;
+    padding-top: 1cm;
+}
+h3{
+    color: aliceblue;
+    font-size: 80px;
+    padding-left: 6cm;
+    padding-top: -1cm;
+}
+.f21{
+    padding-left: 8cm;
+}
+.f22{
+    background-image: linear-gradient(rgba(249, 245, 249, 0.7),rgba(242, 165, 230, 0.7)),url("background.jpg");
+    padding-top:1cm ;
+    padding-left: 1cm;
+    padding-bottom: 2cm;
+    padding-right: 1cm;
+    width: 80%;
+    text-align: center;
+    box-shadow: 5px 5px 10px 15px rgba(245, 242, 245, 0.8);
+}
+.f22 p{
+    color: rgb(46, 3, 86);
+    font-size: 30px;
+}
+.f22 p.intro{
+    color: rgb(7, 7, 107);
+    font-size: 20px;
+}
+.first{
+    width: 100%;
+    display: flex;
+    gap: 0cm;
+}
+.f2{
+    width: 50%;
+    
+}
+.image{
+    border-radius: 5cm;
+    padding-left: 1cm;
+    padding-top: 1cm;
+    padding-right: 1cm;
+    padding-bottom: 1cm;
+    border: 3px solid #ddd;
+    box-shadow: 5px 5px 10px 10px rgba(249, 247, 247, 0.8);
+}
+.imagef{
+    padding-left:0cm ;
+    padding-right: 1cm;
+    padding-bottom: 0.2cm;
+    box-shadow: inset;
+    border-radius: 1cm;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+}
+img{
+    padding-left: 2cm;
+}
+.new{
+    padding-left: 3cm;
+    padding-top: 1cm;
+}
+.new h1{
+    font-size: 80px;
+    text-shadow: 4px 4px #010430;
+}
+.aboutn{
+    width: 90%;
+    background-image: linear-gradient(rgba(95, 86, 216, 0.7),rgba(173, 165, 242, 0.7)),url("background.jpg");
+    padding-left: 1cm;
+    display: flex;
+    gap: 0.5cm;
+    padding: 1cm;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .8);
+    
+}
+.aboutnn{
+    width: 45%;
+    padding-left: 1cm;
+    padding-top: 1cm ;
+    background-color: rgb(72, 4, 79);
+    box-shadow: 5px 5px 10px 2px rgba(251, 248, 248, 0.8);
+}
+.aboutnn p{
+    font-size: 25px;
+    color: rgb(250, 244, 250);
+    line-height: 1cm;
+    text-shadow: 4px 6px black;
+    
+}
+.skills{
+    padding-top: 1cm;
+    padding-left: 1cm;
+}
+.otherd{
+    width: 90%;
+    background-image: linear-gradient(rgba(95, 86, 216, 0.7),rgba(173, 165, 242, 0.7)),url("background.jpg");
+    padding-left: 1cm;
+    display: flex;
+    gap: 0.5cm;
+    padding: 2cm;
+    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, .8);
+    
+    
+}
+.odetail{
+    width: 45%;
+    padding-left: 1cm;
+    padding-top: 1cm ;
+    background-color: rgb(72, 4, 79);
+    box-shadow: 5px 5px 10px 2px rgba(251, 248, 248, 0.8);
+}
+
+.odetail li{
+    font-size: 25px;
+    color: rgb(250, 244, 250);
+    line-height: 1.2cm;
+     
+}
+.odetail h4{
+    padding-left: 3cm;
+    padding-top: 0.2cm;
+    padding-right: 0cm;
+    padding-bottom: 0.2cm;
+    background-color: aliceblue;
+}
+.otherd h2{
+    font-size: 60px;
+    padding-left: 1cm;
+}
+
+.skill-bar{
+    height: 14px;
+    background: #202020;
+    border-radius: 3px;
+    box-shadow: 0 14px 28px rgb(0, 0,0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.22);
+
+}
+.skill-per{
+    height: 14px;
+    background: #18b906;
+    border-radius: 3px;
+    animation: fillBars 3.5s 1;
+}
+@keyframes fillBars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
+.edu{
+ 
+    padding-top: 1cm;
+    padding-left: 1cm;   
+}
